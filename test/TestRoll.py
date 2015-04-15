@@ -3,10 +3,6 @@ from unittest2 import TestCase
 from roulette import roll
 
 
-def _fail_assert():
-    assert 1 == 0
-
-
 def _fail_attribute():
     raise AttributeError
 
